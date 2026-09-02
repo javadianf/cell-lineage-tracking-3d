@@ -1,21 +1,19 @@
 # Automated 3D Cell Tracking and Division-Lineage Reconstruction in Living Plant Tissue
-Reconstructing the complete division lineage of every surface cell in a developing plant organ, across a seven-timepoint 3D confocal time series, directly from raw instance segmentations.
----
-#### ***Licensed under the GNU Affero General Public License v3.0 or later. See [LICENSE](LICENSE). Copyright (c) 2026 Javadian. All rights reserved.***
----
+#### Reconstructing the complete division lineage of every surface cell in a developing plant organ, across a seven-timepoint 3D confocal time series, directly from raw instance segmentations.
 
+#### ***Licensed under the GNU Affero General Public License v3.0 or later.***
+See [LICENSE](LICENSE). Copyright (c) 2026 Javadian. All rights reserved.
 
-**Source code is not published yet.** A publication based on this work is in preparation, and the implementation will be released once it is out. This repository currently holds the project report, result figures, and method documentation only. For questions, data access, or collaboration, please contact the repository owner through GitHub.
+### Source code is not published yet.A publication based on this work is in preparation, and the implementation will be released once it is out.
+This repository currently holds the project report, result figures, and method documentation only. For questions, data access, or collaboration, please contact the repository owner through GitHub.
 
-**Research assistantship project.**
+## Project
 
-Department: `The Chair of Imaging and Computer Vision (Lehrstuhl für Bildgebung und Bildverarbeitung, LfB)`, `RWTH Aachen`.
+Type: `Research assistantship project.`  
+Department: `Lehrstuhl für Medizintechnik (mediTEC), RWTH Aachen`.  
+Supervisors: `Prof. Radermacher, Dr. Hohlmann`.  
+Imaging data: `Tsiantis group, Max Planck Institute for Plant Breeding Research (specimen S10).`  
 
-Supervisors: `Prof. Stegmaier`, `Zhu Chen`.
-
-Imaging data: Tsiantis group, Max Planck Institute for Plant Breeding Research (specimen S10).
-
----
 
 ## Contents
 

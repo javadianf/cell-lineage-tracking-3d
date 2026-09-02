@@ -5,7 +5,7 @@ Reconstructing the complete division lineage of every surface cell in a developi
 > **Source code is not published yet.** A publication based on this work is in preparation, and the implementation will be released once it is out. This repository currently holds the project report, result figures, and method documentation only. For questions, data access, or collaboration, please contact the repository owner through GitHub.
 
 **Research assistantship project.**
-Department of `The Chair of Imaging and Computer Vision (Lehrstuhl für Bildgebung und Bildverarbeitung, LfB)`, `RWTH Aachen`.
+Department: `The Chair of Imaging and Computer Vision (Lehrstuhl für Bildgebung und Bildverarbeitung, LfB)`, `RWTH Aachen`.
 Supervisors: `Prof. Stegmaier`, `Zhu Chen`.
 Imaging data: Tsiantis group, Max Planck Institute for Plant Breeding Research (specimen S10).
 

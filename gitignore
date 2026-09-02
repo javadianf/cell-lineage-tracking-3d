@@ -1,0 +1,69 @@
+# ============================================
+# DATA (never committed; lives on the institutional storage)
+# ============================================
+*.zarr/
+*.npz
+*.npy
+*.tif
+*.tiff
+*.ply
+*.h5
+*.hdf5
+*.csv
+*.pkl
+
+# ============================================
+# MODEL CHECKPOINTS
+# ============================================
+*.pt
+*.pth
+*.ckpt
+
+# ============================================
+# CODE (withheld until publication)
+# ============================================
+src/
+configs/
+scripts/
+notebooks/
+tests/
+output/
+results/
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================
+# ENVIRONMENTS
+# ============================================
+venv/
+env/
+.env
+
+# ============================================
+# EDITOR AND OS
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ============================================
+# KEEP: figures are the point of this repo
+# ============================================
+!figures/
+!figures/*.png

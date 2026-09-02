@@ -2,22 +2,22 @@
 
 Reconstructing the complete division lineage of every surface cell in a developing plant organ, across a seven-timepoint 3D confocal time series, directly from raw instance segmentations.
 
-> **Source code is not published yet.** A publication based on this work is in preparation, and the implementation will be released once it is out. This repository currently holds the project report, result figures, and method documentation only. For questions, data access, or collaboration, please contact the repository owner through GitHub, or by email at `<add-email-here>`.
+> **Source code is not published yet.** A publication based on this work is in preparation, and the implementation will be released once it is out. This repository currently holds the project report, result figures, and method documentation only. For questions, data access, or collaboration, please contact the repository owner through GitHub.
 
 **Research assistantship project.**
-Department of `<DEPARTMENT>`, `<UNIVERSITY>`.
-Supervisors: Prof. `<PROFESSOR>`, `<SUPERVISOR>`.
+Department of `The Chair of Imaging and Computer Vision (Lehrstuhl für Bildgebung und Bildverarbeitung, LfB)`, `RWTH Aachen`.
+Supervisors: `Prof. Stegmaier`, `Zhu Chen`.
 Imaging data: Tsiantis group, Max Planck Institute for Plant Breeding Research (specimen S10).
 
 ---
 
 ## Contents
 
-1. [What this project does](#1-what-this-project-does)
-2. [Why the problem is hard](#2-why-the-problem-is-hard)
-3. [The data](#3-the-data)
-4. [Data engineering](#4-data-engineering-what-had-to-be-built-before-any-tracking)
-5. [How the method was arrived at](#5-how-the-method-was-arrived-at-the-full-path-including-the-dead-ends)
+1. [Introduction](#1-introduction)
+2. [Challenges](#2-challenges)
+3. [Dataset](#3-dataset)
+4. [Data engineering](#4-data-engineering)
+5. [Methods](#5-how-the-method-was-arrived-at-the-full-path-including-the-dead-ends)
 6. [The current pipeline](#6-the-current-pipeline)
 7. [Results](#7-results)
 8. [Negative results](#8-negative-results-and-why-they-are-kept)
@@ -31,7 +31,7 @@ Imaging data: Tsiantis group, Max Planck Institute for Plant Breeding Research (
 
 ---
 
-## 1. What this project does
+## 1. Introduction
 
 A growing plant organ is imaged repeatedly by 3D laser-scanning confocal microscopy. Each frame is segmented into individual cells in three dimensions. The task is to follow every cell through the whole series: to decide which cell in frame *n* corresponds to which cell in frame *n+1*, and to detect the moments at which one cell divides into two or more daughters.
 
@@ -48,7 +48,7 @@ The system is built end to end in Python and PyTorch and combines deformable reg
 
 ---
 
-## 2. Why the problem is hard
+## 2. Challenges
 
 Four properties compound, and each of them breaks a standard tracking assumption.
 
@@ -67,7 +67,7 @@ Four properties compound, and each of them breaks a standard tracking assumption
 
 ---
 
-## 3. The data
+## 3. Dataset
 
 **Acquisition.** 3D laser-scanning confocal fluorescence microscopy of a membrane-stained plant shoot apex, one specimen, imaged at intervals of roughly 12 to 24 hours over seven timepoints (T0 to T6). Provided as per-frame 3D instance segmentations.
 
@@ -121,7 +121,7 @@ The distribution of children per parent is what determines how hard the grouping
 
 ---
 
-## 4. Data engineering (what had to be built before any tracking)
+## 4. Data engineering
 
 None of this is the scientific contribution, but all of it had to exist and be correct before any method could be evaluated, and it accounts for a large part of the work.
 
@@ -570,4 +570,4 @@ Preibisch, S. et al. (2010). *Software for bead-based registration of selective 
 
 ## Contact
 
-Code will be released with the publication. For questions about the method, the results, or the data, open an issue or contact the repository owner at `<add-email-here>`.
+Code will be released with the publication. For questions about the method, the results, or the data, open an issue or contact the repository owner.

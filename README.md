@@ -4,7 +4,7 @@
 #### ***Licensed under the GNU Affero General Public License v3.0 or later.*** See [LICENSE](LICENSE). Copyright (c) 2026 Javadian. All rights reserved.
 
 ### Source Code
-Source code is not published yet in this public repo (except metric tests and demo). The implementation currently lives in a private repository at [git-ce.rwth-aachen.de/javadian/plantcell-tracking](https://git-ce.rwth-aachen.de/javadian/plantcell-tracking) and a publication based on this work is in preparation therefore the code will be published once it is out.
+Source code is not published yet in this public repo (except metric tests and demo). The implementation currently lives in a private repository at [git-ce.rwth-aachen.de/javadian/plantcell-tracking](https://git-ce.rwth-aachen.de/javadian/plantcell-tracking) (accessible by invitation only) and a publication based on this work is in preparation therefore the code will be published once it is out.
 This repository currently holds the project report, result figures, and method documentation only. For questions, data access, or collaboration, please contact the repository owner through GitHub.
 
 ## Project

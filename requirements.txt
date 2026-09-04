@@ -1,0 +1,28 @@
+# Core. Every module needs these.
+numpy>=1.24
+scipy>=1.11
+pandas>=2.0
+zarr>=2.16
+
+# Learning. The division gate and the graph-similarity models.
+# On Apple silicon install the default wheel and set
+#   export PYTORCH_ENABLE_MPS_FALLBACK=1
+# On the cluster install the CUDA build matching the driver.
+torch>=2.2
+
+# Optimal transport, for src/matching/uot_matching.py.
+# Optional: the pipeline runs without it, that matcher is skipped.
+POT>=0.9
+
+# Integer programming, for the set-packing commit in group_gate.
+# Optional: falls back to a conflict-aware greedy solver, slightly worse.
+pulp>=2.7
+
+# Morphology helpers used by the archived projection code.
+scikit-image>=0.22
+
+# --- optional, not needed for the main pipeline ---
+# plyfile>=1.0          # binary PLY, for src/io/ply_io.py
+# open3d>=0.18          # src/registration/rigid_registration.py, archived
+# torch-geometric>=2.5  # src/archive/gnn_delaunay.py, archived
+# matplotlib>=3.8       # figures in anchor_study
